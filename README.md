@@ -11,7 +11,7 @@ Panduan singkat untuk mengatur Windows agar login otomatis tanpa perlu memasukka
 ## 🛠️ Langkah-langkah
 
 1. Tekan `Windows + R`, ketik `regedit`, lalu tekan **Enter**.
-2. Arahkan ke folder berikut:
+2. Arahkan ke folder berikut: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 3. Tambahkan atau ubah nilai berikut (klik kanan > New > String Value jika belum ada):
 
 | Nama String        | Nilai yang Diisi                         |
